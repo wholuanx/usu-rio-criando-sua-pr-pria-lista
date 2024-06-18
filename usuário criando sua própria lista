@@ -1,7 +1,7 @@
 lista = [ ]
 
 while True:
-    elemento = input("Digite um elemento para adicionar à lista (ou 'parar' para terminar): ")
+    elemento = input("Digite um algo para adicionar à lista (ou 'parar' para terminar): ")
     if elemento.lower() == "parar":
         break
     lista.append(elemento)
